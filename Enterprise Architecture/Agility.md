@@ -7,12 +7,11 @@
     - ["Generate Relevant Options"](#generate-relevant-options)
     - ["Implement Decisions in Useful Time"](#implement-decisions-in-useful-time)
   - [Some Real World Cases](#some-real-world-cases)
-  - [Key Takeaway - Agile is Greatly Underrated](#key-takeaway---agile-is-greatly-underrated)
-  - [References](#references)
+  - [Key Takeaway - Agility is Greatly Underrated](#key-takeaway---agility-is-greatly-underrated)
 
 There is a lot of content out there on what agility means or how different contexts interprets the term. The "agility" term is definitely not new in software engineering or organizational management, however it is also abused in some situations and greatly underestimated in other.
 
-My opinion is that applying on of agility methods such as SCRUM is sometimes mandatory, yet not done, with clearly recognizable consequences.
+My opinion is that applying agility methods such as SCRUM is sometimes mandatory, yet not done, with clearly recognizable consequences.
 
 ## My Definition
 
@@ -44,9 +43,11 @@ Without options, no decisions are needed and the outcome of the system becomes d
 
 Options must be available for every decision session. Being agile also includes the idea that the decisions taken are not leading to [zugzwang](https://www.dictionary.com/e/word-of-the-day/zugzwang-2021-08-16/) or closed road situations.
 
-A good example of the value deriving from the decision to preserve options is given in the [Options](https://medium.com/@kentbeck_7670/decisions-decisions-or-why-baskets-of-options-dominate-9ac63658b593). It is proven that having more options enable value increments. However, taking decisions frequently may also have a cost, and a "business case" of being agile or not arises.
+A good example of the value deriving from the decision to preserve options is given in the article [Decisions, Decisions or Why Baskets of Options Dominate](https://medium.com/@kentbeck_7670/decisions-decisions-or-why-baskets-of-options-dominate-9ac63658b593). It is proven that having more options enable value increments. However, taking decisions frequently may also have a cost, and a "business case" of being agile or not arises.
 
 Sometimes organizations are not recognizing the need for frequent decisions. Other organizations consider the cost of frequent decisions unacceptable and prefer the comfort of upfront immutable decisions.
+
+Options may come from customer sensing or from production factors shifts.
 
 ### "Implement Decisions in Useful Time"
 
@@ -62,13 +63,13 @@ In the real world, taking decisions frequently is necessary. Decisions are neede
 
 |Situation|Meaning|
 |-|-|
-|"this is the SOW of the project, this is the allowed time and budget, and by the way, I am allergic to CRs. Agile or waterfall is implementer's preference"|A higher level manager takes a single decision upfront and expects the end result without the need of intermediary decisions. Steering is organized with the base constraints of budget and time and corrections are always directed to the plan, staffing or administrative changes, but avoid product changes. SOW changes are eventually possible with significant sacrifices. The legal aspects frequently come in the center of the discussions.|
+|"this is the SOW of the project, this is the allowed time and budget, and by the way, I am allergic to CRs. Agile or waterfall is implementer's preference"|A higher level manager takes a single decision upfront and expects the end result without the need of intermediary *decisions*. Rather, they expect intermediary *milestones* that confirm the upfront assumptions. Steering is organized with the base constraints of budget and time and corrections are always directed to the plan, staffing or administrative changes, but avoid scope changes. The legal aspects frequently come in the center of the discussions, which normally see the client urging the supplier to maintain the contractual obligations even if their interest (e.g. profit) will be sacrificed.|
 |"this was not specified upfront therefore it is a change request"|We are not allowed, not able or this is not the time to take a decision in merit|
 |"business users are bad at specifying what they want and this is why we discover things late"|A detailed decision on what to do to satisfy business user need is required, but usually in conflict with the project constraints. It is likely we are applying an S-Type program at a P or E Type problem|
 |"documentation is not up to date"|Documentation reflects the decisions taken upfront at a certain moment in time, but other decisions have been taken during the implementation and those were not fully managed because the project plan does not allow for iterations, therefore the decisions became unofficial and were buried in the unwritten knowledge of the implementation team|
 |We have "freeze periods"|The "freeze" is referring to specification normally, bug fixes for example are allowed. The organization is applying S-Type programs to the involved domain|
 
-## Key Takeaway - Agile is Greatly Underrated
+## Key Takeaway - Agility is Greatly Underrated
 
 To understand better this aspect I feel we need to bring the [Lehman's SPE-classification](https://www.expressionsofchange.org/lehman-spe-classification/) on our analysis table with a further detailed dive, which deserves it's own [article](./LehmanSPE.md).
 
@@ -76,8 +77,4 @@ From a certain perspective, I think agile programming methods such as SCRUM or K
 
 As an example, a company must be agile in order to bring into reality the necessary adaptability required by philosophies as ["the big Net Promoter System"](https://www.youtube.com/watch?v=36oXmAwGhWw), which is nowadays popular and adopted in many companies. The fact a company "cares" about the customers, "capture" their voices in order decide how the next product increment will actually improve their lives implies a work and change domain that cannot be established upfront in the minimum details.
 
-## References
-
-- [Options](https://medium.com/@kentbeck_7670/decisions-decisions-or-why-baskets-of-options-dominate-9ac63658b593)
-- [Lack of Discipline is Agile Failure Mode #1](https://architectelevator.com/transformation/agile-discipline/)
-- ["Big Net Promoter System"](https://www.youtube.com/watch?v=36oXmAwGhWw)
+An egregious real world example is Tesla, which is not only able to [delight their customers](https://www.inc.com/justin-bariso/elon-musk-promises-to-implement-customer-suggestio.html) with very short [sense & respond](https://www.youtube.com/watch?v=tGZimJhwgYI) times, but also showing extraordinary adaptability when the [production factors are problematically changing](https://www.forbes.com/sites/arielcohen/2021/09/22/tesla-flexes-innovative-muscle-by-manufacturing-own-chips-during-supply-crunch/).
