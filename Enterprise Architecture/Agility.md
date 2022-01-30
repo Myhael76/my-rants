@@ -7,6 +7,7 @@
     - ["Generate Relevant Options"](#generate-relevant-options)
     - ["Implement Decisions in Useful Time"](#implement-decisions-in-useful-time)
   - [Some Real World Cases](#some-real-world-cases)
+  - [Key Takeaway - Agile is Greatly Underrated](#key-takeaway---agile-is-greatly-underrated)
   - [References](#references)
 
 There is a lot of content out there on what agility means or how different contexts interprets the term. The "agility" term is definitely not new in software engineering or organizational management, however it is also abused in some situations and greatly underestimated in other.
@@ -35,7 +36,7 @@ If we look at SCRUM, decisions are taken every sprint planning, as the very firs
 
 I would personally take a step further and state that the "scope of work", "product backlog", or whatever artifact defines the entirety of the problem domain, is also an object of the frequent decision. Having a big upfront "product backlog" that is rigidly blocked as a "scope" against a "time-budget" to form the well known classical project triangle is usually leading to non-agile project execution. Taking decisions frequently rather leads towards operational organizations that are constrained differently.
 
-These decisions thus, although taken between governed guardrails, achieve their real value when they can transcend an upfront described scope. To understand better this aspect I feel we need to bring the [Lehman's SPE-classfication](https://www.expressionsofchange.org/lehman-spe-classification/) on our analysis table with a further detailed dive, which deserves it's own [article](./LehmanSPE.md).
+These decisions thus, although taken between governed guardrails, achieve their real value when they can transcend an upfront described scope.
 
 ### "Generate Relevant Options"
 
@@ -55,7 +56,6 @@ If we are to consider Gregor Hohpe's [example of the steering wheel as an agilit
 
 In SCRUM's case, this time limit is expressed in the fact the actions should be done in a sprint.
 
-
 ## Some Real World Cases
 
 In the real world, taking decisions frequently is necessary. Decisions are needed both  I am certain that any medium experience employee may recognize some of the following situations:
@@ -68,8 +68,16 @@ In the real world, taking decisions frequently is necessary. Decisions are neede
 |"documentation is not up to date"|Documentation reflects the decisions taken upfront at a certain moment in time, but other decisions have been taken during the implementation and those were not fully managed because the project plan does not allow for iterations, therefore the decisions became unofficial and were buried in the unwritten knowledge of the implementation team|
 |We have "freeze periods"|The "freeze" is referring to specification normally, bug fixes for example are allowed. The organization is applying S-Type programs to the involved domain|
 
+## Key Takeaway - Agile is Greatly Underrated
+
+To understand better this aspect I feel we need to bring the [Lehman's SPE-classification](https://www.expressionsofchange.org/lehman-spe-classification/) on our analysis table with a further detailed dive, which deserves it's own [article](./LehmanSPE.md).
+
+From a certain perspective, I think agile programming methods such as SCRUM or Kanban are actually mandatory for addressing P or E type problems, while for S type problems they may be a preference. At the end of the day, stating that agile methods help "reducing waste" or "failing fast", while true, are great understatements, agile methods bring far greater benefits from many different standpoints.
+
+As an example, a company must be agile in order to bring into reality the necessary adaptability required by philosophies as ["the big Net Promoter System"](https://www.youtube.com/watch?v=36oXmAwGhWw), which is nowadays popular and adopted in many companies. The fact a company "cares" about the customers, "capture" their voices in order decide how the next product increment will actually improve their lives implies a work and change domain that cannot be established upfront in the minimum details.
 
 ## References
 
 - [Options](https://medium.com/@kentbeck_7670/decisions-decisions-or-why-baskets-of-options-dominate-9ac63658b593)
 - [Lack of Discipline is Agile Failure Mode #1](https://architectelevator.com/transformation/agile-discipline/)
+- ["Big Net Promoter System"](https://www.youtube.com/watch?v=36oXmAwGhWw)
