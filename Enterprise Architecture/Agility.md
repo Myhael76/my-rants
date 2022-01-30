@@ -11,7 +11,7 @@
 
 There is a lot of content out there on what agility means or how different contexts interprets the term. The "agility" term is definitely not new in software engineering or organizational management, however it is also abused in some situations and greatly underestimated in other.
 
-My opinion is that applying on of agility methods sunch as SCRUM is sometimes mandatory, yet not done, with clearly recognizable consequences.
+My opinion is that applying on of agility methods such as SCRUM is sometimes mandatory, yet not done, with clearly recognizable consequences.
 
 ## My Definition
 
@@ -41,7 +41,7 @@ These decisions thus, although taken between governed guardrails, achieve their 
 
 Without options, no decisions are needed and the outcome of the system becomes deterministic. We need options to weigh when deciding. In order to be agile, an organization must fully recognize the decision process.
 
-Options must be available for every decision session. Being agile also includes the idea that the decisions taken are not leading to [zugzwang](https://www.dictionary.com/e/word-of-the-day/zugzwang-2021-08-16/ or closed road situations).
+Options must be available for every decision session. Being agile also includes the idea that the decisions taken are not leading to [zugzwang](https://www.dictionary.com/e/word-of-the-day/zugzwang-2021-08-16/) or closed road situations.
 
 A good example of the value deriving from the decision to preserve options is given in the [Options](https://medium.com/@kentbeck_7670/decisions-decisions-or-why-baskets-of-options-dominate-9ac63658b593). It is proven that having more options enable value increments. However, taking decisions frequently may also have a cost, and a "business case" of being agile or not arises.
 
